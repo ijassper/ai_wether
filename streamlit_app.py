@@ -15,8 +15,9 @@ import pandas as pd
 # OpenWeatherMap API 키 (환경 변수 또는 Streamlit Secrets 사용 권장)
 # 여기서는 예시를 위해 직접 입력하지만, 실제 배포 시에는 Secrets를 사용하세요.
 # Streamlit Secrets 사용법: https://docs.streamlit.io/library/api-reference/utilities/st.secrets
-API_KEY = st.secrets["61355258840117a039dc3e05dab8657e"]
-#API_KEY = "21ae68a8847da4d8b312826fa582c9f1" # 실제 배포 시 이 줄을 제거하고 st.secrets를 사용하세요.
+API_KEY = "21ae68a8847da4d8b312826fa582c9f1" # 실제 배포 시 이 줄을 제거하고 st.secrets를 사용하세요.
+API_KEY = st.secrets["API_KEY"]
+
 
 st.title("도시별 일주일 날씨 예보")
 
