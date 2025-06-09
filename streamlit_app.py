@@ -16,7 +16,7 @@ import pandas as pd
 # 여기서는 예시를 위해 직접 입력하지만, 실제 배포 시에는 Secrets를 사용하세요.
 # Streamlit Secrets 사용법: https://docs.streamlit.io/library/api-reference/utilities/st.secrets
 # API_KEY = st.secrets["OPENWEATHERMAP_API_KEY"]
-API_KEY = "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" # 실제 배포 시 이 줄을 제거하고 st.secrets를 사용하세요.
+API_KEY = "21ae68a8847da4d8b312826fa582c9f1" # 실제 배포 시 이 줄을 제거하고 st.secrets를 사용하세요.
 
 st.title("도시별 일주일 날씨 예보")
 
